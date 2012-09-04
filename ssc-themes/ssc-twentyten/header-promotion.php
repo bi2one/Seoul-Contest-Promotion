@@ -19,6 +19,8 @@ $ssc = ss_contest();
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb" rel="stylesheet" type="text/css" />
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicBoldWeb" rel="stylesheet" type="text/css" />
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicExtraBoldWeb" rel="stylesheet" type="text/css" />
+<div id="fb-root"></div>
+</head>
 <body <?php body_class(); ?>>
 	<header>
 		<nav id="nav-area">

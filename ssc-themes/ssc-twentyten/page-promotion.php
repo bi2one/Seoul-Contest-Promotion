@@ -13,16 +13,16 @@ get_header( 'promotion' );
 	<div class="sprite sprite-img03" style="margin: 42px 0 0 -1px;"></div>
 	<table id="story-info-table">
 		<tr class="height140 align-top">
-			<td style="padding-top: 15px;"><span class="strong">토크 하나,</span><br />듣고 생각하기</td>
-			<td style="padding-top: 15px;"><span class="strong">위키토크</span> @삶터</td>
+			<td style="width:160px; padding-top: 15px;"><span class="x-strong">토크 하나,</span><br />듣고 생각하기</td>
+			<td style="padding-top: 15px;"><span class="x-strong">위키토크</span> @삶터</td>
 		</tr>
-		<tr class="height140 align-top">
+		<tr class="height139 align-top">
 			<td></td>
-			<td style="padding-top: 15px;"><span class="strong">위키토크</span> @교육</td>
+			<td style="padding-top: 15px;"><span class="x-strong">위키토크</span> @교육</td>
 		</tr>
 		<tr class="height140 align-top thick-above-border">
-			<td style="padding-top: 15px;"><span class="strong">토크 둘,</span><br />생각한 것 말하기</td>
-			<td class="strong" style="padding-top: 15px;">wiki talk @ 시민마당</td>
+			<td style="padding-top: 15px;"><span class="x-strong">토크 둘,</span><br />생각한 것 말하기</td>
+			<td style="padding-top: 15px;"><span class="x-strong">위키토크</span> @시민마당</td>
 		</tr>
 	</table>
 </aside>
@@ -60,6 +60,14 @@ get_header( 'promotion' );
 			</td>
 		</tr>
 	</table>
+	<table id="empty-area-table">
+		<tr style="height:280px;" class="align-top">
+			<td><div class="sprite sprite-txt_12_" alt="강연자는 변경될 수 있습니다."></div></td>
+		</tr>
+		<tr class="thick-above-border align-top" style="height:139px;">
+			<td><div class="sprite sprite-txt_13_" alt="이야기꾼 추후 공개"></div></td>
+		</tr>
+	</table>
 </aside>
 <section id="contents-area">
 	<article id="desc-article">
@@ -71,24 +79,55 @@ get_header( 'promotion' );
 	<table id="contest-info-table">
 		<tr>
 			<td>
-				<p class="content-table-title">언제</p>
+				<p class="sprite sprite-txt_02" alt="언제"></p>
 				<p class="content-table-desc">2012.09.22 (토) 오후 02:00 ~ 06:30</p>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<p class="content-table-title">어디서</p>
+				<p class=" sprite sprite-txt_03" alt="어디서"></p>
 				<p class="content-table-desc">하자센터 - 영등포시장역 근처</p>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<p class="content-table-title">신청</p>
-				<p class="content-table-desc">2012.09.05(토) ~ 09.15(토)<br />총200석 (선착순)</p>
+				<p class="sprite sprite-txt_04" alt="신청"></p>
+				<p class="content-table-desc">2012.09.05(수) ~ 09.19(수)<br />총280석 (선착순)<br />참가비 : 가벼운 마음으로 아이디어 하나 제안하기</p>
+			</td>
+		</tr>
+	</table>
+	<table id="contest-public-table">
+		<tr>
+			<td class="public-table-order">1</td>
+			<td class="public-table-person-wrap"><span class="public-table-person">박원순</span><br /><span class="public-table-position">서울시장</span></td>
+			<td class="public-table-subject">서울 삶터 2.0을 위하여</td>
+		</tr>
+		<tr class="right-table-tr-border">
+			<td class="public-table-order">2</td>
+			<td class="public-table-person-wrap"><span class="public-table-person">유호근</span><br /><span class="public-table-position">희망동네 사무국장</span></td>
+			<td class="public-table-subject">마을에서 살다 - 희망동네에서 살아가기</td>
+		</tr>
+		<tr class="right-table-tr-border">
+			<td class="public-table-order">1</td>
+			<td class="public-table-person-wrap"><span class="public-table-person">조한혜정</span><br /><span class="public-table-position">연세대 문화인류학과 교수</span></td>
+			<td class="public-table-subject">서울 교육 2.0을 위하여</td>
+		</tr>
+		<tr class="right-table-tr-border">
+			<td class="public-table-order">2</td>
+			<td class="public-table-person-wrap"><span class="public-table-person">김경옥</span><br /><span class="public-table-position">대안교육공간 민들레 대표</span></td>
+			<td class="public-table-subject">6000 독자의 힘 - 함께 살리는 교육 민들레</td>
+		</tr>
+		<tr class="height140 thick-above-border contest-public-table-rest">
+			<td colspan="3">
+				강연 후 관심주제별 시민 "위키토크@시민마당"진행<br /><br /><span class="x-strong">참여시민 지침서</span><br />하나, 토크하나와 둘 모두가 끝날 때까지 중간에 자리를 떠나지 않기<br />둘, 이야기꾼과 즐거운 이야기 나누기<br />셋, 원할 경우 현장에서 이야기꾼이 되어 시민들과 이야기 나누기
 			</td>
 		</tr>
 	</table>
 </section>
 <div class="clear"></div>
+<section id="register-area">
+	<a href="#" id="register-big" class="sprite" alt="register_big"></a>
+	<p class="sprite sprite-txt_10" style="margin:auto;margin-top:27px;margin-bottom:47px;"></p>
+</section>
 
 <?php get_footer( 'promotion' ); ?>

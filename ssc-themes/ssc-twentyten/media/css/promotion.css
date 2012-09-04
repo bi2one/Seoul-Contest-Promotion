@@ -47,8 +47,7 @@
 
 .sprite-logo2{ background-position: 0 -105px; width: 140px; height: 20px; }
 .sprite-mark2{ background-position: 0 -530px; width: 310px; height: 460px; margin:  42px 0 0 -1px;}
-.sprite-register_b{ background-position: 0 -1078px; width: 321px; height: 152px; }
-.sprite-register_s{ background-position: 0 -1280px; width: 140px; height: 65px; margin: 155px 0 0 40px;}
+
 
 .width140 {
 	width: 140px;
@@ -56,6 +55,10 @@
 
 .height140 {
 	height: 140px;
+}
+
+.height139 {
+	height: 139px;
 }
 
 .height45 {
@@ -92,7 +95,7 @@ body {
 	width: 1020px;
 	margin: auto;
 	padding: 0;
-	border-width: 0 1px 0 1px;
+	border-width: 0 1px 1px 1px;
 	border-style: solid;
 	border-color: #c1c1c1;
 }
@@ -182,17 +185,29 @@ a#register-small:active {
 
 
 table#story-info-table {
-	margin: 177px 0 0 40px;
+	margin: 176px 0 0 40px;
 	width: 300px;
 	border-width: 4px 0;
 	border-style: solid;
 	border-color: #323232;
 	font-size: 14px;
-	line-height: 160%;
+	line-height: 170%;
 }
 
 /** ~body - left aside **/
 /** body - right aside **/
+table#empty-area-table {
+	margin: 195px 0 0 0;
+	width: 140px;
+	border-width: 4px 0;
+	border-style: solid;
+	border-color: #323232;
+}
+
+table#empty-area-table td {
+	padding-top: 15px;
+}
+
 #right-aside-area {
 	width: 140px;
 	margin-right: 40px;
@@ -253,14 +268,88 @@ table#contest-info-table td {
 	padding-top: 10px;
 }
 
-p.content-table-title {
-	font-size: 0.8em;
-	font-weight: bold;
+p.content-table-desc {
+	font-size: 20px;
+	padding-top: 6px;
+	line-height: 140%
 }
 
-p.content-table-desc {
-	font-size: 1.1em;
-	padding-top: 6px;
-	line-height: 170%
+td.public-table-order {
+	width: 45px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'NanumGothicExtraBoldWeb';
+}
+
+td.public-table-subject {
+	font-size: 12px;
+	font-family: 'NanumGothicWeb'
+}
+
+table#contest-public-table {
+	width: 460px;
+	margin-top: 195px;
+	border-width: 4px 0;
+	border-color: #323232;
+	border-style: solid;
+}
+
+
+table#contest-public-table td {
+	height: 68px;
+}
+
+td.public-table-person-wrap {
+	width: 180px;
+	line-height: 150%;
+}
+
+span.public-table-person {
+	font-size: 14px;
+	font-family: 'NanumGothicExtraBoldWeb';
+}
+
+span.public-table-position {
+	font-size: 12px;
+	font-family: 'NanumGothicWeb';
+}
+
+tr.center-table-tr-border {
+	border-top: 1px solid #b4b4b4;
+}
+
+tr.contest-public-table-rest {
+	font-size: 12px;
+	line-height: 150%;
+}
+
+tr.contest-public-table-rest td {
+	padding-left: 15px;
 }
 /** ~body - contents **/
+/** body - bottom **/
+section#register-area {
+	margin-top: 50px;
+}
+
+a#register-big {
+	background-position: 0 -432px; width: 300px; height: 140px;
+	margin: auto;
+}
+
+a#register-big:hover {
+	background-position: 0 -622px; width: 300px; height: 140px;
+}
+
+a#register-big:active {
+	background-position: 0 -622px; width: 300px; height: 140px;
+}
+
+section#facebook-comment-area {
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	padding: 50px 80px 0 80px;
+	border: 1px solid #c1c1c1;
+	width: 862px;
+}

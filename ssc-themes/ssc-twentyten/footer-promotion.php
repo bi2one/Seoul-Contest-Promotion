@@ -7,8 +7,11 @@
  */
 ?>
 </div> <!-- #main -->
-<footer>
-	empty footer!
+<footer style="margin-top: 100px;">
+	<h4 class="sprite sprite-txt_11" style="margin:auto;"></h4>
+	<section id="facebook-comment-area">
+		<div class="fb-comments" data-href="http://wikiseoul.com/" data-num-posts="20" data-width="862"></div>
+	</section>
 </footer>
 <?php wp_footer(); ?>
 </body>
