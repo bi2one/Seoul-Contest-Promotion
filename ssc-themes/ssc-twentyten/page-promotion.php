@@ -4,12 +4,16 @@
  */
 get_header( 'promotion' );
 ?>
+<?php if ($_GET["register"] == true) {?>
 
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dEM4TGtjWEhRQ2piMmpqU01paGdGQWc6MQ" width="940" height="1348" frameborder="0" marginheight="0" marginwidth="0" style="margin:40px;">로드 중...</iframe>
+
+<?php } else { ?>
 <aside id="left-aside-area">
 	<h2 class="sprite sprite-title_01" style="margin: 30px 0 0 40px;" alt="title" ></h2>
 	<h3 class="sprite sprite-title_02" style="margin: 20px 0 0 40px;" alt="title" ></h3>
-	<a href="#" id="register-small" class="sprite" alt="register_small"></a>
-	<div class="sprite sprite-img02" style="margin: 56px 0 0 -1px;"></div>
+	<a href="<?php echo add_query_arg('register', 'true'); ?>" id="register-small" class="sprite" alt="register_small"></a>
+	<div id="tree-image" class="sprite sprite-img02" style="margin: 56px 0 0 -1px;"></div>
 	<div class="sprite sprite-img03" style="margin: 42px 0 0 -1px;"></div>
 	<table id="story-info-table">
 		<tr class="height140 align-top">
@@ -96,6 +100,7 @@ get_header( 'promotion' );
 			</td>
 		</tr>
 	</table>
+	<div id="how-flag" style="float:left;margin-top: 90px;"></div>
 	<table id="contest-public-table">
 		<tr>
 			<td class="public-table-order">1</td>
@@ -126,8 +131,9 @@ get_header( 'promotion' );
 </section>
 <div class="clear"></div>
 <section id="register-area">
-	<a href="#" id="register-big" class="sprite" alt="register_big"></a>
+	<a href="<?php echo add_query_arg('register', 'true'); ?>" id="register-big" class="sprite" alt="register_big"></a>
 	<p class="sprite sprite-txt_10" style="margin:auto;margin-top:27px;margin-bottom:47px;"></p>
 </section>
+<?php } ?>
 
 <?php get_footer( 'promotion' ); ?>

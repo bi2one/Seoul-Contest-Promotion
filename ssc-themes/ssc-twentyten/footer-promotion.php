@@ -13,6 +13,15 @@
 		<div class="fb-comments" data-href="http://wikiseoul.com/" data-num-posts="20" data-width="862"></div>
 	</section>
 </footer>
+<?php if ( $_GET['register'] != 'true' ) { ?>
+<script>
+$j=jQuery.noConflict();
+$j(document).ready(function() {
+    $j('#menu-list').onePageNav();
+});
+</script>
+<?php } ?>
 <?php wp_footer(); ?>
+
 </body>
 </html>

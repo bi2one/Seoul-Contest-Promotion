@@ -95,9 +95,23 @@ body {
 	width: 1020px;
 	margin: auto;
 	padding: 0;
+	padding-top: 90px;
 	border-width: 0 1px 1px 1px;
 	border-style: solid;
 	border-color: #c1c1c1;
+}
+
+a#back-btn {
+	background-position: 0 0; width: 87px; height: 51px;
+	float:left;
+}
+
+a#back-btn:hover {
+	background-position: 0 -101px; width: 87px; height: 51px;
+}
+
+a#back-btn:active {
+	background-position: 0 -101px; width: 87px; height: 51px;
 }
 
 #nav-logo {
@@ -109,7 +123,7 @@ header {
 	border-bottom: 4px solid #c1c1c1;
 }
 
-nav#nav-area {
+#nav-area {
 	width: 1020px;
 	margin: auto;
 }
@@ -244,6 +258,7 @@ section#contents-area {
 }
 
 article#desc-article {
+	height: 250px;
 	padding: 70px 0 0 0;
 }
 
@@ -256,7 +271,7 @@ article#desc-article p {
 }
 
 table#contest-info-table {
-	margin: 300px 0 0 0;
+	margin: 269px 0 0 0;
 	width: 460px;
 	border-bottom: 4px solid #323232;
 }
@@ -353,3 +368,20 @@ section#facebook-comment-area {
 	border: 1px solid #c1c1c1;
 	width: 862px;
 }
+
+.current #what-button {
+	background-position: -360px -101px; width: 60px; height: 51px;
+}
+
+.current #when-button {
+	background-position: -360px -303px; width: 60px; height: 51px;
+}
+
+.current #how-button {
+	background-position: -360px -505px; width: 60px; height: 51px;
+}
+
+.current #together-button {
+	background-position: -360px -707px; width: 60px; height: 51px;
+}
+

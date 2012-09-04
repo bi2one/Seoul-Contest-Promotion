@@ -48,7 +48,7 @@ $ssc = ss_contest();
 			<ul id="menu-list">
 				<?php
 				if ($_GET["register"] == 'true') { ?>
-				<li class="current"><a href="<?php the_permalink(); ?>#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
+x				<li class="current"><a href="<?php the_permalink(); ?>#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
 				<li class=""><a href="<?php the_permalink(); ?>#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
 				<li class=""><a href="<?php the_permalink(); ?>#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
 				<li class=""><a href="<?php the_permalink(); ?>#facebook-comment-area" id="together-button" class="sprite" alt="together"></a></li>
