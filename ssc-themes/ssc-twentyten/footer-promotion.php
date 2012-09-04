@@ -18,7 +18,6 @@
 $(document).ready(function() {
     $('#menu-list li a').bind('click', function(event) {
         var $anchor = $(this);
-        console.log($anchor.attr('href'));
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
@@ -30,7 +29,6 @@ $(window).scroll(function() {
     top = $(window).scrollTop();
     if ( top <= 481 ) {
         $('#menu-list li').removeClass("current");
-        console.log($('#what'));
         $('#what').addClass("current");
     } else if ( top <= 1272 ) {
         $('#menu-list li').removeClass("current");
