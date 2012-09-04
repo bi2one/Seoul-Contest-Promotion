@@ -15,10 +15,35 @@
 </footer>
 <?php if ( $_GET['register'] != 'true' ) { ?>
 <script>
-$j=jQuery.noConflict();
-$j(document).ready(function() {
-    $j('#menu-list').onePageNav();
+$(document).ready(function() {
+    $('#menu-list li a').bind('click', function(event) {
+        var $anchor = $(this);
+        console.log($anchor.attr('href'));
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
 });
+$(window).scroll(function() {
+    var top = 0;
+    top = $(window).scrollTop();
+    if ( top <= 481 ) {
+        $('#menu-list li').removeClass("current");
+        console.log($('#what'));
+        $('#what').addClass("current");
+    } else if ( top <= 1272 ) {
+        $('#menu-list li').removeClass("current");
+        $('#when').addClass("current");
+    } else if ( top <= 1705 ) {
+        $('#menu-list li').removeClass("current");
+        $('#how').addClass("current");
+    } else {
+        $('#menu-list li').removeClass("current");
+        $('#together').addClass("current");
+    }
+});
+
 </script>
 <?php } ?>
 <?php wp_footer(); ?>

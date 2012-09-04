@@ -1,0 +1,387 @@
+/**
+ * promotion page specific CSS
+ *
+ * @package cc-contest
+ * @subpackage Theme
+ */
+
+/* =CCConetst Promotion Style
+-------------------------------------------------------------- */
+.sprite { background-image: url('../images/promotion_images.png'); display:block; }
+.sprite-btn_back_norm{ background-position: 0 0; width: 87px; height: 51px; }
+.sprite-btn_back_over{ background-position: 0 -101px; width: 87px; height: 51px; }
+.sprite-btn_submit_01_norm{ background-position: 0 -202px; width: 140px; height: 65px; }
+.sprite-btn_submit_01_over{ background-position: 0 -317px; width: 140px; height: 65px; }
+.sprite-btn_submit_02_norm{ background-position: 0 -432px; width: 300px; height: 140px; }
+.sprite-btn_submit_02_over{ background-position: 0 -622px; width: 300px; height: 140px; }
+.sprite-img01{ background-position: 0 -812px; width: 260px; height: 230px; }
+.sprite-img02{ background-position: 0 -1092px; width: 70px; height: 220px; }
+.sprite-img03{ background-position: 0 -1362px; width: 310px; height: 460px; }
+.sprite-logo{ background-position: 0 -1872px; width: 200px; height: 51px; }
+.sprite-menu01_n{ background-position: -360px 0; width: 60px; height: 51px; }
+.sprite-menu01_o{ background-position: -360px -101px; width: 60px; height: 51px; }
+.sprite-menu02_n{ background-position: -360px -202px; width: 60px; height: 51px; }
+.sprite-menu02_o{ background-position: -360px -303px; width: 60px; height: 51px; }
+.sprite-menu03_n{ background-position: -360px -404px; width: 60px; height: 51px; }
+.sprite-menu03_o{ background-position: -360px -505px; width: 60px; height: 51px; }
+.sprite-menu04_n{ background-position: -360px -606px; width: 60px; height: 51px; }
+.sprite-menu04_o{ background-position: -360px -707px; width: 60px; height: 51px; }
+.sprite-title_01{ background-position: -360px -808px; width: 140px; height: 20px; }
+.sprite-title_02{ background-position: -360px -878px; width: 140px; height: 130px; }
+.sprite-txt_01{ background-position: -360px -1058px; width: 181px; height: 19px; }
+.sprite-txt_02{ background-position: -360px -1127px; width: 27px; height: 13px; }
+.sprite-txt_03{ background-position: -360px -1190px; width: 38px; height: 13px; }
+.sprite-txt_04{ background-position: -360px -1253px; width: 26px; height: 14px; }
+.sprite-txt_05{ background-position: -360px -1317px; width: 23px; height: 13px; }
+.sprite-txt_06{ background-position: -360px -1380px; width: 23px; height: 13px; }
+.sprite-txt_07{ background-position: -360px -1443px; width: 23px; height: 13px; }
+.sprite-txt_08{ background-position: -360px -1506px; width: 23px; height: 13px; }
+.sprite-txt_09{ background-position: -360px -1569px; width: 23px; height: 13px; }
+.sprite-txt_10{ background-position: -360px -1632px; width: 340px; height: 50px; }
+.sprite-txt_11{ background-position: -360px -1732px; width: 405px; height: 70px; }
+.sprite-txt_12{ background-position: -360px -1852px; width: 140px; height: 36px; }
+.sprite-txt_12_{ background-position: -360px -1938px; width: 140px; height: 32px; }
+.sprite-txt_13{ background-position: -815px 0; width: 140px; height: 26px; }
+.sprite-txt_13_{ background-position: -815px -76px; width: 140px; height: 17px; }
+
+
+.sprite-logo2{ background-position: 0 -105px; width: 140px; height: 20px; }
+.sprite-mark2{ background-position: 0 -530px; width: 310px; height: 460px; margin:  42px 0 0 -1px;}
+
+
+.width140 {
+	width: 140px;
+}
+
+.height140 {
+	height: 140px;
+}
+
+.height139 {
+	height: 139px;
+}
+
+.height45 {
+	height: 45px;
+}
+
+.align-top {
+	vertical-align: top;
+}
+
+.clear {
+	clear: both;
+}
+
+.strong {
+	font-family: 'NanumGothicBoldWeb';
+}
+
+.x-strong {
+	font-family: 'NanumGothicExtraBoldWeb';
+}
+
+.thick-above-border {
+	border-top: 4px solid #323232;
+}
+
+body {
+	background-color: white;
+	font-family: 'NanumGothicWeb';
+	color: #282C31;
+}
+/** header **/
+#main {
+	width: 1020px;
+	margin: auto;
+	padding: 0;
+	padding-top: 90px;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #c1c1c1;
+}
+
+a#back-btn {
+	background-position: 0 0; width: 87px; height: 51px;
+	float:left;
+}
+
+a#back-btn:hover {
+	background-position: 0 -101px; width: 87px; height: 51px;
+}
+
+a#back-btn:active {
+	background-position: 0 -101px; width: 87px; height: 51px;
+}
+
+#nav-logo {
+	float: left;
+}
+
+header {
+	padding: 17px 0 18px 0;
+	border-bottom: 4px solid #c1c1c1;
+}
+
+#nav-area {
+	width: 1020px;
+	margin: auto;
+}
+
+ul#menu-list {
+	width: 300px;
+	margin: auto;
+}
+
+ul#menu-list li {
+	float:left;
+}
+
+a#what-button {
+	background-position: -360px 0; width: 60px; height: 51px;
+}
+a#what-button:hover {
+	background-position: -360px -101px; width: 60px; height: 51px;
+}
+a#what-button:active {
+	background-position: -360px -101px; width: 60px; height: 51px;
+}
+
+a#when-button {
+	background-position: -360px -202px; width: 60px; height: 51px;
+}
+a#when-button:hover {
+	background-position: -360px -303px; width: 60px; height: 51px;
+}
+a#when-button:active {
+	background-position: -360px -303px; width: 60px; height: 51px;
+}
+
+a#how-button {
+	background-position: -360px -404px; width: 60px; height: 51px;
+}
+a#how-button:hover {
+	background-position: -360px -505px; width: 60px; height: 51px;
+}
+a#how-button:active {
+	background-position: -360px -505px; width: 60px; height: 51px;
+}
+
+a#together-button {
+	background-position: -360px -606px; width: 60px; height: 51px;
+}
+a#together-button:hover {
+	background-position: -360px -707px; width: 60px; height: 51px;
+}
+a#together-button:active {
+	background-position: -360px -707px; width: 60px; height: 51px;
+}
+/** ~header **/
+/** body - left aside **/
+#left-aside-area {
+	width: 340px;
+	margin-right: 20px;
+	float:left;
+}
+
+a#register-small {
+	background-position: 0 -202px; width: 140px; height: 65px;
+	margin: 154px 0 0 40px;
+}
+
+a#register-small:hover {
+	background-position: 0 -317px; width: 140px; height: 65px;
+}
+
+a#register-small:active {
+	background-position: 0 -317px; width: 140px; height: 65px;
+}
+
+
+table#story-info-table {
+	margin: 176px 0 0 40px;
+	width: 300px;
+	border-width: 4px 0;
+	border-style: solid;
+	border-color: #323232;
+	font-size: 14px;
+	line-height: 170%;
+}
+
+/** ~body - left aside **/
+/** body - right aside **/
+table#empty-area-table {
+	margin: 195px 0 0 0;
+	width: 140px;
+	border-width: 4px 0;
+	border-style: solid;
+	border-color: #323232;
+}
+
+table#empty-area-table td {
+	padding-top: 15px;
+}
+
+#right-aside-area {
+	width: 140px;
+	margin-right: 40px;
+	float:right;
+}
+
+table#corp-info-table {
+	margin-top: 59px;
+	border-width: 4px 0;
+	border-color: #323232;
+	border-style: solid;
+	width: 140px;
+}
+
+tr.right-table-tr-border {
+	border-top: 1px solid #b4b4b4;
+}
+
+table#corp-info-table td {
+	vertical-align: top;
+	padding-top: 7px;
+}
+
+p.right-table-desc {
+	padding-top: 9px;
+	font-size: 11px;
+	line-height: 190%;
+	color: #444444;
+}
+/** ~body - right aside **/
+/** body - contents **/
+section#contents-area {
+	margin: 0 180px 0 360px;
+}
+
+article#desc-article {
+	height: 250px;
+	padding: 70px 0 0 0;
+}
+
+article#desc-article h2 {
+}
+
+article#desc-article p {
+	font-size: 16px;
+	line-height: 160%;
+}
+
+table#contest-info-table {
+	margin: 269px 0 0 0;
+	width: 460px;
+	border-bottom: 4px solid #323232;
+}
+
+table#contest-info-table td {
+	vertical-align: top;
+	height: 181px;
+	border-top: 4px solid #323232;
+	padding-top: 10px;
+}
+
+p.content-table-desc {
+	font-size: 20px;
+	padding-top: 6px;
+	line-height: 140%
+}
+
+td.public-table-order {
+	width: 45px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'NanumGothicExtraBoldWeb';
+}
+
+td.public-table-subject {
+	font-size: 12px;
+	font-family: 'NanumGothicWeb'
+}
+
+table#contest-public-table {
+	width: 460px;
+	margin-top: 195px;
+	border-width: 4px 0;
+	border-color: #323232;
+	border-style: solid;
+}
+
+
+table#contest-public-table td {
+	height: 68px;
+}
+
+td.public-table-person-wrap {
+	width: 180px;
+	line-height: 150%;
+}
+
+span.public-table-person {
+	font-size: 14px;
+	font-family: 'NanumGothicExtraBoldWeb';
+}
+
+span.public-table-position {
+	font-size: 12px;
+	font-family: 'NanumGothicWeb';
+}
+
+tr.center-table-tr-border {
+	border-top: 1px solid #b4b4b4;
+}
+
+tr.contest-public-table-rest {
+	font-size: 12px;
+	line-height: 150%;
+}
+
+tr.contest-public-table-rest td {
+	padding-left: 15px;
+}
+/** ~body - contents **/
+/** body - bottom **/
+section#register-area {
+	margin-top: 50px;
+}
+
+a#register-big {
+	background-position: 0 -432px; width: 300px; height: 140px;
+	margin: auto;
+}
+
+a#register-big:hover {
+	background-position: 0 -622px; width: 300px; height: 140px;
+}
+
+a#register-big:active {
+	background-position: 0 -622px; width: 300px; height: 140px;
+}
+
+section#facebook-comment-area {
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	padding: 50px 80px 0 80px;
+	border: 1px solid #c1c1c1;
+	width: 862px;
+}
+
+.current #what-button {
+	background-position: -360px -101px; width: 60px; height: 51px;
+}
+
+.current #when-button {
+	background-position: -360px -303px; width: 60px; height: 51px;
+}
+
+.current #how-button {
+	background-position: -360px -505px; width: 60px; height: 51px;
+}
+
+.current #together-button {
+	background-position: -360px -707px; width: 60px; height: 51px;
+}
+

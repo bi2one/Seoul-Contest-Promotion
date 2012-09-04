@@ -19,9 +19,8 @@ $ssc = ss_contest();
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb" rel="stylesheet" type="text/css" />
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicBoldWeb" rel="stylesheet" type="text/css" />
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicExtraBoldWeb" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery.nav.min.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery.scrollTo.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery-1.8.1.min.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery.easing.1.3.js'; ?>"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -48,15 +47,15 @@ $ssc = ss_contest();
 			<ul id="menu-list">
 				<?php
 				if ($_GET["register"] == 'true') { ?>
-				<li class="current"><a href="<?php the_permalink(); ?>#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
-				<li class=""><a href="<?php the_permalink(); ?>#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
-				<li class=""><a href="<?php the_permalink(); ?>#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
-				<li class=""><a href="<?php the_permalink(); ?>#facebook-comment-area" id="together-button" class="sprite" alt="together"></a></li>
+				<li id="what" class="current"><a href="<?php the_permalink(); ?>#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
+				<li id="when" class=""><a href="<?php the_permalink(); ?>#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
+				<li id="how" class=""><a href="<?php the_permalink(); ?>#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
+				<li id="together" class=""><a href="<?php the_permalink(); ?>#register-big" id="together-button" class="sprite" alt="together"></a></li>
 				<?php } else { ?>
-				<li class="current"><a href="#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
-				<li class=""><a href="#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
-				<li class=""><a href="#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
-				<li class=""><a href="#facebook-comment-area" id="together-button" class="sprite" alt="together"></a></li>
+				<li id="what" class="current"><a href="#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
+				<li id="when" class=""><a href="#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
+				<li id="how" class=""><a href="#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
+				<li id="together" class=""><a href="#facebook-comment-area" id="together-button" class="sprite" alt="together"></a></li>
 				<?php } ?>
 			</ul>
 			<div class="clear"></div>
