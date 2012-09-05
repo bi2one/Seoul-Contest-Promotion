@@ -12,6 +12,7 @@ $ssc = ss_contest();
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title>서울 사회적경제 아이디어 대회</title>
+<link rel="icon" type="image/png" href="<?php echo $ssc->theme->image_url . 'favicon.ico'; ?>">
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" href="<?php echo $ssc->theme->css_url . 'reset.css'; ?>" type="text/css" media="screen">

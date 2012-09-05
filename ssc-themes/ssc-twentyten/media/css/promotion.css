@@ -7,7 +7,7 @@
 
 /* =CCConetst Promotion Style
 -------------------------------------------------------------- */
-.sprite { background-image: url('../images/promotion_images.png'); display:block; }
+.sprite { background: url('../images/promotion_images.png') no-repeat top left; display:block; }
 .sprite-btn_back_norm{ background-position: 0 0; width: 87px; height: 51px; }
 .sprite-btn_back_over{ background-position: 0 -101px; width: 87px; height: 51px; }
 .sprite-btn_submit_01_norm{ background-position: 0 -202px; width: 140px; height: 65px; }
@@ -364,7 +364,7 @@ section#facebook-comment-area {
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom: 40px;
-	padding: 50px 80px 0 80px;
+	padding: 50px 80px 10px 80px;
 	border: 1px solid #c1c1c1;
 	width: 862px;
 }
