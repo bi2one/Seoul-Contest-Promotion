@@ -78,11 +78,11 @@ get_header( 'promotion' );
 		<h2 class="sprite sprite-txt_01" alt="wiki talk @__는"></h2>
 		<p style="margin-top: 31px;">달팽이도 집이 있는데 집 구하기가 하늘에 별 따기인 우리,<br />먹고 사는 문제에 치여, 정다운 이웃을 그리워하는 우리,<br />야자와 학원에 지친 아이들을 안쓰러워하는 우리,<br />아이들이 행복한 참교육을 찾고 있는 우리,</p>
 		<br />
-		<p class="strong">우리 모두가 모여 함께 대화를 나누고 삶터와 교육의 문제를<br />해결하기 위한 오픈컨퍼런스입니다.</p>
+		<p class="strong" >우리 모두가 모여 함께 대화를 나누고 삶터와 교육의 문제를<br />해결하기 위한 오픈컨퍼런스입니다.</p>
 	</article>
 	<table id="contest-info-table">
 		<tr>
-			<td>
+			<td style="height:181px;">
 				<p class="sprite sprite-txt_02" alt="언제"></p>
 				<p class="content-table-desc">2012.09.22 (토) 오후 02:00 ~ 06:30</p>
 			</td>
@@ -122,7 +122,7 @@ get_header( 'promotion' );
 			<td class="public-table-person-wrap"><span class="public-table-person">김경옥</span><br /><span class="public-table-position">대안교육공간 민들레 대표</span></td>
 			<td class="public-table-subject">6000 독자의 힘 - 함께 살리는 교육 민들레</td>
 		</tr>
-		<tr class="height140 thick-above-border contest-public-table-rest">
+		<tr class="thick-above-border contest-public-table-rest" style="height:139px;">
 			<td colspan="3">
 				강연 후 관심주제별 시민 "위키토크@시민마당"진행<br /><br /><span class="x-strong">참여시민 지침서</span><br />하나, 토크하나와 둘 모두가 끝날 때까지 중간에 자리를 떠나지 않기<br />둘, 이야기꾼과 즐거운 이야기 나누기<br />셋, 원할 경우 현장에서 이야기꾼이 되어 시민들과 이야기 나누기
 			</td>

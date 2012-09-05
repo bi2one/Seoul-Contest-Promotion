@@ -75,10 +75,12 @@
 
 .strong {
 	font-family: 'NanumGothicBoldWeb';
+	color: #333333;
 }
 
 .x-strong {
-	font-family: 'NanumGothicExtraBoldWeb';
+	font-family: 'NanumGothicBoldWeb';
+	color: #333333;
 }
 
 .thick-above-border {
@@ -276,9 +278,12 @@ table#contest-info-table {
 	border-bottom: 4px solid #323232;
 }
 
+table#contest-info-table tr {
+    height: 195px;
+}
+
 table#contest-info-table td {
 	vertical-align: top;
-	height: 181px;
 	border-top: 4px solid #323232;
 	padding-top: 10px;
 }
@@ -293,7 +298,8 @@ td.public-table-order {
 	width: 45px;
 	text-align: center;
 	font-size: 14px;
-	font-family: 'NanumGothicExtraBoldWeb';
+	font-family: 'NanumGothicBoldWeb';
+	color: #333333;
 }
 
 td.public-table-subject {
@@ -310,8 +316,8 @@ table#contest-public-table {
 }
 
 
-table#contest-public-table td {
-	height: 68px;
+table#contest-public-table tr {
+	height: 70px;
 }
 
 td.public-table-person-wrap {
@@ -321,7 +327,8 @@ td.public-table-person-wrap {
 
 span.public-table-person {
 	font-size: 14px;
-	font-family: 'NanumGothicExtraBoldWeb';
+	font-family: 'NanumGothicBoldWeb';
+	color: #333333;
 }
 
 span.public-table-position {

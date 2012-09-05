@@ -19,7 +19,6 @@ $ssc = ss_contest();
 <link rel="stylesheet" href="<?php echo $ssc->theme->css_url . 'promotion.css'; ?>" type="text/css" media="screen">
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb" rel="stylesheet" type="text/css" />
 <link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicBoldWeb" rel="stylesheet" type="text/css" />
-<link href="http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicExtraBoldWeb" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery-1.8.1.min.js'; ?>"></script>
 <script type="text/javascript" src="<?php echo $ssc->theme->js_url . 'jquery.easing.1.3.js'; ?>"></script>
 <div id="fb-root"></div>
