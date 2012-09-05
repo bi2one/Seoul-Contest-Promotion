@@ -37,7 +37,7 @@ $ssc = ss_contest();
 <body <?php body_class(); ?>>
 	<header id="nav" style="position: fixed;width: 100%;background-color:white;">
 		<nav id="nav-area">
-			<a href="#" id="nav-logo" class="sprite sprite-logo" alt="contest-logo"></a>
+			<a href="<?php the_permalink(); ?>" id="nav-logo" class="sprite sprite-logo" alt="contest-logo"></a>
 			<?php
 				if ($_GET["register"] == 'true') {
 			?>
@@ -48,12 +48,12 @@ $ssc = ss_contest();
 			<ul id="menu-list">
 				<?php
 				if ($_GET["register"] == 'true') { ?>
-				<li id="what" class="current"><a href="<?php the_permalink(); ?>#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
+				<li id="what"><a href="<?php the_permalink(); ?>#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
 				<li id="when" class=""><a href="<?php the_permalink(); ?>#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
 				<li id="how" class=""><a href="<?php the_permalink(); ?>#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
 				<li id="together" class=""><a href="<?php the_permalink(); ?>#register-big" id="together-button" class="sprite" alt="together"></a></li>
 				<?php } else { ?>
-				<li id="what" class="current"><a href="#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
+				<li id="what"><a href="#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
 				<li id="when" class=""><a href="#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
 				<li id="how" class=""><a href="#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
 				<li id="together" class=""><a href="#facebook-comment-area" id="together-button" class="sprite" alt="together"></a></li>
