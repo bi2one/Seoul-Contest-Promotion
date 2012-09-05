@@ -24,7 +24,7 @@ $(document).ready(function() {
         event.preventDefault();
     });
 });
-/*$(window).scroll(function() {
+$(window).scroll(function() {
     var top = 0;
     top = $(window).scrollTop();
     if ( top <= 481 ) {
@@ -40,7 +40,7 @@ $(document).ready(function() {
         $('#menu-list li').removeClass("current");
         $('#together').addClass("current");
     }
-}); */
+});
 
 </script>
 <?php } ?>

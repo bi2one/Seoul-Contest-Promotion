@@ -53,7 +53,7 @@ $ssc = ss_contest();
 				<li id="how" class=""><a href="<?php the_permalink(); ?>#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
 				<li id="together" class=""><a href="<?php the_permalink(); ?>#register-big" id="together-button" class="sprite" alt="together"></a></li>
 				<?php } else { ?>
-				<li id="what"><a href="#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
+				<li id="what" class="current"><a href="#what-flag" id="what-button" class="sprite" alt="what" style="margin-right:20px;"></a></li>
 				<li id="when" class=""><a href="#tree-image" id="when-button" class="sprite" alt="when" style="margin-right:20px;"></a></li>
 				<li id="how" class=""><a href="#how-flag" id="how-button" class="sprite" alt="how" style="margin-right:20px;"></a></li>
 				<li id="together" class=""><a href="#facebook-comment-area" id="together-button" class="sprite" alt="together"></a></li>
