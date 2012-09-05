@@ -96,7 +96,7 @@ get_header( 'promotion' );
 		<tr>
 			<td>
 				<p class="sprite sprite-txt_04" alt="신청"></p>
-				<p class="content-table-desc">2012.09.05(수) ~ 09.19(수)<br />총280석 (선착순)<br />참가비 : 가벼운 마음으로 아이디어 하나 제안하기</p>
+				<p class="content-table-desc">2012.09.05(수) ~ 09.19(수)<br />총230석 (선착순)<br />참가비 : 가벼운 마음으로 아이디어 하나 제안하기</p>
 			</td>
 		</tr>
 	</table>
