@@ -34,7 +34,7 @@ $ssc = ss_contest();
 <![endif]-->
 </head>
 <body <?php body_class(); ?>>
-	<header id="nav" style="position: fixed;width: 100%;background-color:white;">
+	<header id="nav" style="position: fixed;width: 100%;background-color:white;z-index:1000;">
 		<nav id="nav-area">
 			<a href="<?php the_permalink(); ?>" id="nav-logo" class="sprite sprite-logo" alt="contest-logo"></a>
 			<?php

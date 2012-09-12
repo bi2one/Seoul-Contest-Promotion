@@ -45,6 +45,7 @@ $(window).scroll(function() {
 </script>
 <?php } ?>
 <?php wp_footer(); ?>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
